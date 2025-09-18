@@ -122,8 +122,8 @@ use crate::utils::alive_tracker::IsAlive;
 use crate::utils::{user_data::UserDataMap, Logical, Point, Rectangle, Size};
 use crate::utils::{Serial, SERIAL_COUNTER};
 use crate::wayland::compositor::Cacheable;
-use crate::wayland::shell::xdg::dialog::ToplevelDialogHint;
 use crate::wayland::compositor::{self, BufferAssignment, SurfaceAttributes};
+use crate::wayland::shell::xdg::dialog::ToplevelDialogHint;
 use std::cmp::min;
 use std::{collections::HashSet, fmt::Debug, sync::Mutex};
 
